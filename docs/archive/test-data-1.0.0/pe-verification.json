@@ -1,0 +1,429 @@
+{
+  "file": "BitLineDumpBrowser.exe",
+  "bytes": 382976,
+  "sha256": "86b6d72b782d385cc1735eb15d9d0c72b3af3bc2195c3d8ded69e22e11fcd20e",
+  "format": "PE32+ x64 Windows GUI",
+  "minimum_subsystem": [
+    10,
+    0
+  ],
+  "high_entropy_aslr": true,
+  "aslr": true,
+  "dep": true,
+  "signed": false,
+  "sections": 6,
+  "imports": [
+    {
+      "dll": "kernel32.dll",
+      "functions": [
+        "CloseHandle",
+        "CreateDirectoryW",
+        "CreateFileW",
+        "CreateThread",
+        "DeleteFileW",
+        "ExitProcess",
+        "FlushFileBuffers",
+        "GetCommandLineW",
+        "GetCurrentProcessId",
+        "GetEnvironmentVariableW",
+        "GetFileSizeEx",
+        "GetFileTime",
+        "GetFullPathNameW",
+        "GetLastError",
+        "GetModuleFileNameW",
+        "GetModuleHandleW",
+        "GetTempPathW",
+        "GetTickCount64",
+        "GlobalAlloc",
+        "GlobalFree",
+        "GlobalLock",
+        "GlobalUnlock",
+        "LocalFree",
+        "MoveFileExW",
+        "MultiByteToWideChar",
+        "ReadFile",
+        "SetFilePointerEx",
+        "WideCharToMultiByte",
+        "WriteFile"
+      ]
+    },
+    {
+      "dll": "gdi32.dll",
+      "functions": [
+        "CreateCompatibleDC",
+        "CreateFontW",
+        "CreatePen",
+        "CreateSolidBrush",
+        "DeleteDC",
+        "DeleteObject",
+        "GetObjectW",
+        "RoundRect",
+        "SelectObject",
+        "SetBkMode",
+        "SetStretchBltMode",
+        "SetTextColor",
+        "StretchBlt"
+      ]
+    },
+    {
+      "dll": "comctl32.dll",
+      "functions": [
+        "ImageList_Create",
+        "ImageList_Destroy",
+        "ImageList_ReplaceIcon",
+        "InitCommonControlsEx"
+      ]
+    },
+    {
+      "dll": "comdlg32.dll",
+      "functions": [
+        "GetOpenFileNameW",
+        "GetSaveFileNameW"
+      ]
+    },
+    {
+      "dll": "shell32.dll",
+      "functions": [
+        "CommandLineToArgvW",
+        "DragAcceptFiles",
+        "DragFinish",
+        "DragQueryFileW",
+        "ShellExecuteW"
+      ]
+    },
+    {
+      "dll": "uxtheme.dll",
+      "functions": [
+        "SetWindowTheme"
+      ]
+    },
+    {
+      "dll": "msvcrt.dll",
+      "functions": [
+        "_vsnprintf",
+        "calloc",
+        "free",
+        "malloc",
+        "memchr",
+        "memcmp",
+        "memcpy",
+        "memset",
+        "realloc",
+        "strcmp",
+        "strlen",
+        "strstr"
+      ]
+    },
+    {
+      "dll": "user32.dll",
+      "functions": [
+        "BeginPaint",
+        "CloseClipboard",
+        "CreateWindowExW",
+        "DefWindowProcW",
+        "DestroyIcon",
+        "DestroyWindow",
+        "DispatchMessageW",
+        "DrawFocusRect",
+        "DrawIconEx",
+        "DrawTextW",
+        "EmptyClipboard",
+        "EnableWindow",
+        "EndPaint",
+        "FillRect",
+        "GetClientRect",
+        "GetDpiForWindow",
+        "GetFocus",
+        "GetKeyState",
+        "GetMessageW",
+        "GetSystemMetrics",
+        "GetWindowLongPtrW",
+        "GetWindowRect",
+        "GetWindowTextLengthW",
+        "GetWindowTextW",
+        "InvalidateRect",
+        "IsDialogMessageW",
+        "KillTimer",
+        "LoadCursorW",
+        "LoadImageW",
+        "MessageBoxW",
+        "MoveWindow",
+        "OpenClipboard",
+        "PostMessageW",
+        "PostQuitMessage",
+        "RegisterClassExW",
+        "SendMessageW",
+        "SetClipboardData",
+        "SetFocus",
+        "SetForegroundWindow",
+        "SetProcessDpiAwarenessContext",
+        "SetTimer",
+        "SetWindowLongPtrW",
+        "SetWindowPos",
+        "SetWindowTextW",
+        "ShowWindow",
+        "TranslateMessage",
+        "UpdateWindow"
+      ]
+    }
+  ],
+  "resources": [
+    {
+      "path": [
+        2,
+        102,
+        1033
+      ],
+      "bytes": 172540
+    },
+    {
+      "path": [
+        3,
+        1,
+        1033
+      ],
+      "bytes": 640
+    },
+    {
+      "path": [
+        3,
+        2,
+        1033
+      ],
+      "bytes": 1133
+    },
+    {
+      "path": [
+        3,
+        3,
+        1033
+      ],
+      "bytes": 1755
+    },
+    {
+      "path": [
+        3,
+        4,
+        1033
+      ],
+      "bytes": 3479
+    },
+    {
+      "path": [
+        3,
+        5,
+        1033
+      ],
+      "bytes": 5641
+    },
+    {
+      "path": [
+        3,
+        6,
+        1033
+      ],
+      "bytes": 17782
+    },
+    {
+      "path": [
+        3,
+        7,
+        1033
+      ],
+      "bytes": 41181
+    },
+    {
+      "path": [
+        3,
+        8,
+        1033
+      ],
+      "bytes": 725
+    },
+    {
+      "path": [
+        3,
+        9,
+        1033
+      ],
+      "bytes": 979
+    },
+    {
+      "path": [
+        3,
+        10,
+        1033
+      ],
+      "bytes": 1242
+    },
+    {
+      "path": [
+        3,
+        11,
+        1033
+      ],
+      "bytes": 1699
+    },
+    {
+      "path": [
+        3,
+        12,
+        1033
+      ],
+      "bytes": 2472
+    },
+    {
+      "path": [
+        3,
+        13,
+        1033
+      ],
+      "bytes": 429
+    },
+    {
+      "path": [
+        3,
+        14,
+        1033
+      ],
+      "bytes": 602
+    },
+    {
+      "path": [
+        3,
+        15,
+        1033
+      ],
+      "bytes": 785
+    },
+    {
+      "path": [
+        3,
+        16,
+        1033
+      ],
+      "bytes": 872
+    },
+    {
+      "path": [
+        3,
+        17,
+        1033
+      ],
+      "bytes": 1059
+    },
+    {
+      "path": [
+        3,
+        18,
+        1033
+      ],
+      "bytes": 1450
+    },
+    {
+      "path": [
+        3,
+        19,
+        1033
+      ],
+      "bytes": 303
+    },
+    {
+      "path": [
+        3,
+        20,
+        1033
+      ],
+      "bytes": 606
+    },
+    {
+      "path": [
+        3,
+        21,
+        1033
+      ],
+      "bytes": 794
+    },
+    {
+      "path": [
+        3,
+        22,
+        1033
+      ],
+      "bytes": 1048
+    },
+    {
+      "path": [
+        3,
+        23,
+        1033
+      ],
+      "bytes": 1621
+    },
+    {
+      "path": [
+        3,
+        24,
+        1033
+      ],
+      "bytes": 2655
+    },
+    {
+      "path": [
+        3,
+        25,
+        1033
+      ],
+      "bytes": 458
+    },
+    {
+      "path": [
+        14,
+        101,
+        1033
+      ],
+      "bytes": 104
+    },
+    {
+      "path": [
+        14,
+        103,
+        1033
+      ],
+      "bytes": 90
+    },
+    {
+      "path": [
+        14,
+        104,
+        1033
+      ],
+      "bytes": 90
+    },
+    {
+      "path": [
+        14,
+        105,
+        1033
+      ],
+      "bytes": 90
+    },
+    {
+      "path": [
+        16,
+        1,
+        1033
+      ],
+      "bytes": 864
+    },
+    {
+      "path": [
+        24,
+        1,
+        1033
+      ],
+      "bytes": 1310
+    }
+  ],
+  "executed_on_windows": false
+}

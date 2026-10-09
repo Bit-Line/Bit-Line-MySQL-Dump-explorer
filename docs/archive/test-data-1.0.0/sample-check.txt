@@ -1,0 +1,14 @@
+shop_demo / : 0 rows, 0 columns, kind 3
+shop_demo / categories: 14 rows, 7 columns, kind 0
+shop_demo / products: 280 rows, 7 columns, kind 0
+shop_demo / customers: 120 rows, 5 columns, kind 0
+shop_demo / orders: 600 rows, 5 columns, kind 0
+shop_demo / order_items: 1200 rows, 5 columns, kind 0
+shop_demo / settings: 4 rows, 3 columns, kind 0
+shop_demo / users: 12 rows, 4 columns, kind 0
+shop_demo / active_categories: 0 rows, 0 columns, kind 1
+shop_demo / demo_only: 0 rows, 0 columns, kind 2
+analytics / : 0 rows, 0 columns, kind 3
+analytics / events: 5000 rows, 7 columns, kind 0
+analytics / checkout_events: 0 rows, 0 columns, kind 1
+PASS: 7230 rows decoded; 13 schema objects; 0 notes

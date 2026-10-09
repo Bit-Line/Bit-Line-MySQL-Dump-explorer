@@ -1,0 +1,16 @@
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/kernel32.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/kernel32.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/gdi32.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/gdi32.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/comctl32.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/comctl32.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/comdlg32.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/comdlg32.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/shell32.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/shell32.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/uxtheme.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/uxtheme.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/msvcrt.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/msvcrt.lib
+/usr/local/swift/usr/bin/lld-link /lib /def:[PROJECT_ROOT]/build/windows/user32.def /machine:x64 /out:[PROJECT_ROOT]/build/windows/user32.lib
+/usr/local/swift/usr/bin/clang --target=x86_64-pc-windows-msvc -std=c17 -Wall -Wextra -Werror -Wno-misleading-indentation -Wno-pointer-sign -O2 -fno-stack-protector -c [PROJECT_ROOT]/src/platform.c -o [PROJECT_ROOT]/build/windows/platform.obj
+/usr/local/swift/usr/bin/clang --target=x86_64-pc-windows-msvc -std=c17 -Wall -Wextra -Werror -Wno-misleading-indentation -Wno-pointer-sign -O2 -fno-stack-protector -c [PROJECT_ROOT]/src/core.c -o [PROJECT_ROOT]/build/windows/core.obj
+/usr/local/swift/usr/bin/clang --target=x86_64-pc-windows-msvc -std=c17 -Wall -Wextra -Werror -Wno-misleading-indentation -Wno-pointer-sign -O2 -fno-stack-protector -c [PROJECT_ROOT]/src/app.c -o [PROJECT_ROOT]/build/windows/app.obj
+/usr/local/swift/usr/bin/clang --target=x86_64-pc-windows-msvc -O2 -fno-stack-protector -c [PROJECT_ROOT]/src/chkstk.S -o [PROJECT_ROOT]/build/windows/chkstk.obj
+/usr/local/swift/usr/bin/lld-link /machine:x64 /subsystem:windows,6.00 /osversion:6.00 /entry:WinMainCRTStartup /nodefaultlib /dynamicbase /highentropyva /nxcompat /opt:ref /opt:icf /timestamp:0 /stack:8388608 /out:[PROJECT_ROOT]/build/windows/BitLineDumpBrowser.exe [PROJECT_ROOT]/build/windows/platform.obj [PROJECT_ROOT]/build/windows/core.obj [PROJECT_ROOT]/build/windows/app.obj [PROJECT_ROOT]/build/windows/chkstk.obj [PROJECT_ROOT]/build/windows/app.res [PROJECT_ROOT]/build/windows/kernel32.lib [PROJECT_ROOT]/build/windows/gdi32.lib [PROJECT_ROOT]/build/windows/comctl32.lib [PROJECT_ROOT]/build/windows/comdlg32.lib [PROJECT_ROOT]/build/windows/shell32.lib [PROJECT_ROOT]/build/windows/uxtheme.lib [PROJECT_ROOT]/build/windows/msvcrt.lib [PROJECT_ROOT]/build/windows/user32.lib
+Built and statically checked: [PROJECT_ROOT]/build/windows/BitLineDumpBrowser.exe (382,976 bytes)
+SHA-256: 07ff6ab220909be6530f2984eb88618f38351de249409eed91551ef167120f51
+Native Windows startup has NOT been tested by this build command.

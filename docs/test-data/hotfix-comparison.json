@@ -1,0 +1,109 @@
+{
+  "original_1_0_0": {
+    "bytes": 382976,
+    "sha256": "86b6d72b782d385cc1735eb15d9d0c72b3af3bc2195c3d8ded69e22e11fcd20e",
+    "machine": "0x8664",
+    "pe_magic": "0x20b",
+    "os_header": [
+      10,
+      0
+    ],
+    "subsystem_version": [
+      10,
+      0
+    ],
+    "dll_characteristics": "0x8160",
+    "load_config": {
+      "rva": 0,
+      "bytes": 0
+    },
+    "sections": {
+      ".text": {
+        "raw_bytes": 88576,
+        "sha256": "8d8ecc549cb898bc672779f6bf376e8167dc5c2d8d37d39e5099d26b51134975"
+      },
+      ".rdata": {
+        "raw_bytes": 23040,
+        "sha256": "680ab41adac9cc6ef2d06decff0950509b373311e0fe19ebade5924b5eea5955"
+      },
+      ".data": {
+        "raw_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      ".pdata": {
+        "raw_bytes": 1536,
+        "sha256": "794dd1af0bb59afee17bc73509a07fec66ae68cd2c82185cb0a3ad504e9fa994"
+      },
+      ".rsrc": {
+        "raw_bytes": 268288,
+        "sha256": "c4437407a01c2ce3b3ee66e75564fa501e608819cd67dc3427a5b2dbe121e088"
+      },
+      ".reloc": {
+        "raw_bytes": 512,
+        "sha256": "c2a0634f499e231911af57698ad7b216386bb1eb22f03d4961f8fe7d14f6f1e0"
+      }
+    }
+  },
+  "hotfix_1_0_1": {
+    "bytes": 382976,
+    "sha256": "07ff6ab220909be6530f2984eb88618f38351de249409eed91551ef167120f51",
+    "machine": "0x8664",
+    "pe_magic": "0x20b",
+    "os_header": [
+      6,
+      0
+    ],
+    "subsystem_version": [
+      6,
+      0
+    ],
+    "dll_characteristics": "0x8160",
+    "load_config": {
+      "rva": 0,
+      "bytes": 0
+    },
+    "sections": {
+      ".text": {
+        "raw_bytes": 88576,
+        "sha256": "8d8ecc549cb898bc672779f6bf376e8167dc5c2d8d37d39e5099d26b51134975"
+      },
+      ".rdata": {
+        "raw_bytes": 23040,
+        "sha256": "41a97554f6f20008255792f59770bb8d31e646507d4a6e99bc0cff2789c24341"
+      },
+      ".data": {
+        "raw_bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      },
+      ".pdata": {
+        "raw_bytes": 1536,
+        "sha256": "794dd1af0bb59afee17bc73509a07fec66ae68cd2c82185cb0a3ad504e9fa994"
+      },
+      ".rsrc": {
+        "raw_bytes": 268288,
+        "sha256": "c04f0aa75cfc2a6f4166d40188dd542fbe62203de162559545e2bf40cb085bcd"
+      },
+      ".reloc": {
+        "raw_bytes": 512,
+        "sha256": "c2a0634f499e231911af57698ad7b216386bb1eb22f03d4961f8fe7d14f6f1e0"
+      }
+    }
+  },
+  "differing_byte_count": 9,
+  "differing_file_offsets": [
+    184,
+    192,
+    99976,
+    100027,
+    116019,
+    381654,
+    381662,
+    381984,
+    382272
+  ],
+  "executable_text_section_identical": true,
+  "dll_and_function_imports_identical": true,
+  "repeat_build_byte_identical": true,
+  "original_rejected_by_new_checker": "Invalid loader contract: subsystem >= 6.3 without load configuration / GS cookie. This can cause Windows startup error 0xC000007B. Rebuild with tools/build.py.",
+  "windows_start_test_performed": false
+}

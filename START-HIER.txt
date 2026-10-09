@@ -1,0 +1,32 @@
+﻿BIT-LINE DUMP BROWSER 1.0.1 — WINDOWS x64
+========================================
+
+START-HOTFIX für den gemeldeten Fehler 0xC000007B in Version 1.0.0.
+Die alte EXE hatte eine unpassende PE-Subsystem-/Loader-Konfiguration.
+Details, Belege und Testgrenzen: docs/TESTBERICHT.md.
+
+1. Das gesamte ZIP in einen NEUEN, LEEREN Ordner entpacken.
+2. Dort BitLineDumpBrowser.exe starten (nicht die alte Verknüpfung).
+3. Zunächst „Demo laden“ ausprobieren.
+
+Keine DLLs nachinstallieren oder aus anderen Ordnern dazukopieren.
+Keine MySQL-Instanz, kein Python, .NET, Java oder VC++-Redistributable nötig.
+Die Anwendung bleibt x64. Ziel: Windows 10 ab Version 1703 / Windows 11.
+Nicht für 32-Bit-Windows; keine native ARM64-Ausgabe.
+
+PRÜFSTATUS
+Der Buildfehler wurde anhand der alten EXE und Primärquellen eingegrenzt.
+Der neue Build ist statisch geprüft und reproduzierbar. Die Kernprüfungen
+wurden erneut ausgeführt. Ein nativer Windows-Start konnte hier NICHT
+getestet werden; die Bestätigung auf deinem System steht noch aus.
+Die EXE ist nicht codesigniert. Schutzprogramme nicht pauschal deaktivieren.
+
+BEDIENUNG
+HANDBUCH.html ist das lokale Handbuch ohne externe Ressourcen.
+Dumps und das bisherige Cacheformat bleiben unverändert.
+Cache: %LOCALAPPDATA%\Bit-Line\DumpBrowser\Cache
+Der Original-Dump wird weiterhin zum Lesen benötigt.
+
+BEI WEITEREM STARTFEHLER
+Bitte neue Fehlermeldung, Windows-Version/Build und Systemtyp (x64/x86/ARM64)
+angeben. Der Screenshot allein benennt keine konkrete defekte DLL.

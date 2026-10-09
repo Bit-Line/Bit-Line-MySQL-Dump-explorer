@@ -1,0 +1,29 @@
+BIT-LINE DUMP BROWSER — KOMPONENTEN UND BRANDING
+Version 1.0.0, 2026-10-09
+
+Anwendungscode und Build-/Testskripte: siehe LICENSE.txt (MIT).
+
+Branding:
+Das Bit-Line-Original wurde vom Auftraggeber bereitgestellt. Der App-Icon-
+Entwurf (kleines b mit Datenbanksymbol) stammt aus dem in diesem Auftrag
+freigegebenen Bildentwurf. Marken- und Logorechte sind nicht Bestandteil
+der MIT-Freigabe. Einbindung ausschließlich für diese Bit-Line-Anwendung.
+Die Navigationsicons sind einfache, für dieses Projekt erstellte Grafiken.
+
+Es werden keine Font-Dateien und keine externen UI-/Parser-/Datenbank-
+Bibliotheken mitgeliefert. Die Anwendung fragt Windows-Systemschriftarten
+Segoe UI und Consolas ab; Windows übernimmt die Schriftbereitstellung.
+
+Die native EXE importiert ausschließlich Funktionen aus vorhandenen
+Windows-System-DLLs:
+kernel32.dll, user32.dll, gdi32.dll, comctl32.dll, comdlg32.dll,
+shell32.dll, uxtheme.dll, msvcrt.dll.
+Diese Microsoft-Systemdateien werden nicht mitverteilt. Es ist kein
+Visual-C++-Redistributable-Installer Teil des Pakets und für die gewählte
+Importkonfiguration nicht vorgesehen.
+
+Build-Werkzeuge LLVM/Clang/LLD und Python werden im Quellpaket nicht
+mitverteilt. Sie werden zum Selbstbauen benötigt, nicht zum Ausführen.
+
+Die Demodaten sind vollständig synthetisch. Adressen mit example.invalid
+sind keine realen Kundendaten.

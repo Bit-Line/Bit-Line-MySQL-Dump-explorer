@@ -1,0 +1,17 @@
+test_console_subsystem_is_rejected (__main__.LoaderMetadataTests.test_console_subsystem_is_rejected) ... ok
+test_manifest_application_architecture_mismatch_is_rejected (__main__.LoaderMetadataTests.test_manifest_application_architecture_mismatch_is_rejected) ... ok
+test_manifest_dependency_architecture_mismatch_is_rejected (__main__.LoaderMetadataTests.test_manifest_dependency_architecture_mismatch_is_rejected) ... ok
+test_missing_aslr_is_rejected (__main__.LoaderMetadataTests.test_missing_aslr_is_rejected) ... ok
+test_missing_dep_is_rejected (__main__.LoaderMetadataTests.test_missing_dep_is_rejected) ... ok
+test_original_100_loader_configuration_is_rejected (__main__.LoaderMetadataTests.test_original_100_loader_configuration_is_rejected) ... ok
+test_pe32_optional_header_is_rejected (__main__.LoaderMetadataTests.test_pe32_optional_header_is_rejected) ... ok
+test_release_metadata (__main__.LoaderMetadataTests.test_release_metadata) ... ok
+test_subsystem_63_without_load_config_is_rejected (__main__.LoaderMetadataTests.test_subsystem_63_without_load_config_is_rejected) ... ok
+test_unexpected_os_header_is_rejected (__main__.LoaderMetadataTests.test_unexpected_os_header_is_rejected) ... ok
+test_unexpected_runtime_dependency_is_rejected (__main__.LoaderMetadataTests.test_unexpected_runtime_dependency_is_rejected) ... ok
+test_x86_machine_is_rejected (__main__.LoaderMetadataTests.test_x86_machine_is_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.006s
+
+OK
